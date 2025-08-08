@@ -2,14 +2,27 @@
 
 This repo is my answers from the interviews of `Pave.ai`.
 
-`Part 1: Data Pipeline Design`: Prepare the solution architecture and explanations in `part_1_Technical_Documents.docx`.
+## Setup env
+Create and activate env:
+```bash
+conda create -n  paveai python=3.10 -y
 
+conda activate paveai
+```
 
-`Part 2: Data Transformation Implementation` 
-- **Data Quality Checks**: Answers in `part2_data_quality_checks.ipynb`.
-- **Transformation Pipeline**: Answers in `part2_transformation_pipelines.ipynb`.
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
 
+## Setup data
+```bash
+git submodule update --init --recursive
+```
 
-`Part 3: Analytics & Visualization` 
-- **SQL Analytics Queries Write optimized queries** and **Real-time Monitoring Queries**: : Answers in `part3_sql_analytics.ipynb`.
-- **Dashboard Mock-up**: Preapre the PowerBI desktop file `part3_paveai_visualization_v2.pbix`. 
+## Answers
+Part 1: Data Pipeline Design - Anwers in `part1_answers`.
+
+Part 2: Data Transformation Implementation - Anwers in `part2_answers`.
+
+Part 3: Analytics & Visualization - Anwers in `part3_answers`.
